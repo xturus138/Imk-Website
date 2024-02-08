@@ -22,16 +22,11 @@
         function checkLogin() {
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
-
-            // Check if username and password are correct
             if (username === "admin" && password === "admin") {
-                // Redirect to another HTML page
                 window.location.href = "Pemilik/FramesetPemilik.html";
             } else if (username === "user" && password === "user") {
-                // Redirect to another HTML page
                 window.location.href = "Penghuni/FramesetPenghuni.html";
             } else {
-                // Provide feedback that login failed
                 alert("Username atau password salah. Silakan coba lagi.");
             }
         }

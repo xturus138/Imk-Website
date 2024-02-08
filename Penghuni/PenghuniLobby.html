@@ -3,11 +3,23 @@
 <title>Penghuni Lobby</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
-    <div class="w3-row">
-        <div class="w3-col w3-green w3-container" style="width:15%"><p>20%</p></div>
-        <div class="w3-col w3-blue w3-container" style="width:70%"><p>60%</p></div>
-        <div class="w3-col w3-red w3-container" style="width:15%"><p>20%</p></div>
-      </div>
+<body style="background-color:paleturquoise;">
+    <div>
+        <style>
+            textarea::placeholder{
+                text-align: center;
+                color: black;
+            }
+        </style>
+        <div class="w3-col w3-container w3-margin-top" style="width:15%">
+            <textarea class="w3-input w3-border w3-round-large" name="Profile" placeholder="Profile" type="text" style="width: 100%; height: 200px;"></textarea>
+        </div>
+        <div class="w3-col w3-container w3-margin-top" style="width:70%">
+            <textarea class="w3-input w3-border w3-round-large" name="Pengumuman" placeholder="Pengumuman" type="text" style="width: 100%; height: 940px;"></textarea>
+        </div>
+        <div class="w3-col w3-container w3-margin-top" style="width:15%">
+            <textarea class="w3-input w3-border w3-round-large" name="JatuhTempo" placeholder="Jatuh Tempo" type="text" style="width: 100%; height: 150px;"></textarea>
+        </div>
+    </div>
 </body>
 </html>       

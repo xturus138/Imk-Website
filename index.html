@@ -12,9 +12,9 @@
             }    
         </style>
             <img src="Image/ProfilePNG.png" alt="User Icon" class="w3-left w3-circle  " style="width:50%" > 
-                    <input id="username" class="margtop w3-round-large"  type="text" placeholder="USERNAME">
+                    <input name="username" id="username" class="margtop w3-round-large"  type="text" placeholder="USERNAME">
                     <br>
-                    <input id="password" class="w3-margin w3-round-large" type="password" placeholder="PASSWORD">
+                    <input name="" id="password" class="w3-margin w3-round-large" type="password" placeholder="PASSWORD">
                     <br>
                     <button onclick="checkLogin()" class="w3-button w3-green w3-round-large">LOGIN</button> 
     </div> 
@@ -31,5 +31,20 @@
             }
         }
     </script>
+
+    <!--
+
+    Seharusnya ini bisa mengirimkan data ke check_login.php dan mengambil data dari database server. Tapi saat dicoba 
+    malah menunjukan http error. Silahkan dicoba sendiri
+
+    <form id="LoginForm" action="check_login.php" method=POST>
+        <input name="username" id="username" class="margtop w3-round-large"  type="text" placeholder="USERNAME">
+        <br>
+        <input name="password" id="password" class="w3-margin w3-round-large" type="password" placeholder="PASSWORD">
+        <br>
+        <button type="submit" class="w3-button w3-green w3-round-large">LOGIN</button> 
+    </form>
+
+    -->
 </body>             
 </html>

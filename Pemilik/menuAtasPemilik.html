@@ -3,6 +3,11 @@
     <title>Aplikasi Kosan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../w3.css">
+    <script>
+        function Logout() {
+            window.top.location.href = "../index.html"; 
+        }
+    </script>
 <body>
     <div class="w3-bar w3-blue">
         <a href="PemilikLobby.html" target="bawah">
@@ -15,7 +20,7 @@
             <button class="w3-bar-item w3-button  w3-border-right">Pembayaran</button></a>
         <a href="ListKamarPemilik.html" target="bawah">
             <button class="w3-bar-item w3-button  w3-border-right">List Kamar</button></a>
-        <button class="w3-bar-item w3-button w3-right w3-red  w3-border-right">Logout</button>
-</div>
+        <button class="w3-bar-item w3-button w3-right w3-red  w3-border-right" onclick="Logout()">Logout</button>
+    </div>
 </body>
 </html>

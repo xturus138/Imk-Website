@@ -3,13 +3,20 @@
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM Penghuni WHERE nama='$username' AND password='$password'";
-    $hasil = mysqli_query($conn, $sql);
+    $sqlP = "SELECT * FROM penghuni WHERE username = '$username' AND password = '$password'";
+    $sqlB = "SELECT * FROM pemilik WHERE username = '$username' AND password = '$password'";
+    $hasilP = mysqli_query($conn, $sqlP);
+    $hasilB = mysqli_query($conn, $sqlB);
 
-    if (mysqli_num_rows($hasil) == 1) {
+    if (mysqli_num_rows($hasilP) == 1) {
         header("Location: Penghuni/FramesetPenghuni.html");
         exit();
-    } else {
-        echo "Username atau password salah!";
+    } else if (mysqli_num_rows($hasilB) == 1) {
+        header("Location: Pemilik/FramesetPemilik.html");
+        exit();
+    }else{
+        echo "<script>alert('Username atau password salah!'); window.history.back();</script>";
     }
+       
+    
 ?>

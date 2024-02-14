@@ -72,7 +72,7 @@
 <div class="w3-row w3-animate-opacity">
     <div class="w3-half w3-container">
         <div class="w3-row">
-            <div class="w3-col marginCustom checkbox-container">
+            <div class="w3-col marginCustom">
                 <button class="w3-button occupied w3-ripple w3-hover-green" >
                     <h1>Kamar 1</h1><span class="status-text">Jatuh Tempo</span>
                     <input type="checkbox" id="kamar1" name="kamar1" value="Kamar1" class="custom-checkbox"></button>

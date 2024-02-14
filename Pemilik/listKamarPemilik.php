@@ -63,39 +63,39 @@
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button occupied w3-ripple w3-hover-green" onclick="link()"><h1>Kamar 2</h1><span class="status-text">Diisi</span></button>
+                <button type=submit name="listkamar" class="w3-button occupied w3-ripple w3-hover-green" value="kamar2" onclick="link()"><h1>Kamar 2</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green" onclick="link()"><h1>Kamar 3</h1><span class="status-text">Kosong</span></button>
+                <button type=submit name="listkamar" class="w3-button w3-ripple w3-hover-green" value="kamar3" onclick="link()"><h1>Kamar 3</h1><span class="status-text">Kosong</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green" onclick="link()"><h1>Kamar 4</h1><span class="status-text">Diisi</span></button>
+                <button type=submit name="listkamar" class="w3-button w3-ripple w3-hover-green" value="kamar4" onclick="link()"><h1>Kamar 4</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
     </div>
     <div class="w3-half w3-container">
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green" onclick="link()"><h1>Kamar 5</h1><span class="status-text">Kosong</span></button>
+                <button type=submit name="listkamar" class="w3-button w3-ripple w3-hover-green" value="kamar5" onclick="link()"><h1>Kamar 5</h1><span class="status-text">Kosong</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green" onclick="link()"><h1>Kamar 6</h1><span class="status-text">Diisi</span></button>
+                <button type=submit name="listkamar" class="w3-button w3-ripple w3-hover-green" value="kamar6" onclick="link()"><h1>Kamar 6</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green occupied" onclick="link()"><h1>Kamar 7</h1><span class="status-text">Kosong</span></button>
+                <button type=submit name="listkamar" class="w3-button w3-ripple w3-hover-green occupied" value="kamar7" onclick="link()"><h1>Kamar 7</h1><span class="status-text">Kosong</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green occupied" onclick="link()"><h1>Kamar 8</h1><span class="status-text">Diisi</span></button>
+                <button type=submit name="listkamar" class="w3-button w3-ripple w3-hover-green occupied" value="kamar8" onclick="link()"><h1>Kamar 8</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
     </div>

@@ -23,7 +23,7 @@ require("../koneksi.php");
             </label>
             <?php
             $db = new database();
-            $datas = $db->tampil_data("SELECT * FROM profilepenghuni");
+            $datas = $db->tampil_data("SELECT * FROM penghuni");
 
             foreach ($datas as $data) {
             ?>

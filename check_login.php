@@ -20,7 +20,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Alert Box</title>
+    <title>Alert</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <style>
         body {
@@ -63,7 +63,7 @@
 </head>
 <body style="background-color:paleturquoise;">
     <div class="alert">
-        <h2>Alert</h2>
+        <h2>Pesan Peringatan</h2>
         <p>Username atau password salah!</p>
         <a href="javascript:history.back()" class="btn">OK</a>
     </div>

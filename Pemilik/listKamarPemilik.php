@@ -46,6 +46,11 @@
         }
 
     </style>
+    <script>
+        function link(){
+            window.location.href="DetailListKamar.php";
+        }
+    </script>
 </head>
 <body style="background-color:paleturquoise;">
 
@@ -53,7 +58,7 @@
     <div class="w3-half w3-container">
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button occupied w3-ripple w3-hover-green" ><h1>Kamar 1</h1><span class="status-text">Kosong</span></button>
+                <button class="w3-button occupied w3-ripple w3-hover-green" onclick="link()"><h1>Kamar 1</h1><span class="status-text">Kosong</span></button>
             </div>
         </div>
         <div class="w3-row">

@@ -22,7 +22,20 @@
     while ($row = mysqli_fetch_assoc($hasil)) {
         $dataPenghuni .= $row['nama'] . " ";
     }
-?>
+    $data= ""; {
+        $data.= "NIK: " . $row['nik'] . "\n";
+        $data.= "Username: " . $row['username'] . "\n";
+        $data.= "Password: " . $row['password'] . "\n";
+        $data.= "Nama: " . $row['nama'] . "\n";
+        $data.= "Tanggal Lahir: " . $row['tglLahir'] . "\n";
+        $data.= "Jenis Kelamin: " . $row['jenisKelamin'] . "\n";
+        $data.= "Alamat: " . $row['alamat'] . "\n";
+        $data.= "Perkawinan: " . $row['perkawinan'] . "\n";
+        $data.= "Pekerjaan: " . $row['pekerjaan'] . "\n";
+        $data.= "List Kamar: " . $row['listkamar'] . "\n\n";
+    }
+    ?>
+
 
 <body style="background-color:paleturquoise;">
     <div class="w3-animate-zoom">
@@ -35,7 +48,7 @@
     </style>
         <div class="w3-col w3-container w3-margin-top ccontainer" style="width:100%; position: relative;">
             <label style="position: absolute; pointer-events: none;"><h3>Data Penghuni Kamar - <?php echo $dataPenghuni; ?> </h3></label>
-            <textarea class="w3-input w3-border w3-round-xxlarge" id="DataPenghuni" readonly style="padding-top: 75px; height: 550px;"></textarea> 
+            <textarea class="w3-input w3-border w3-round-xxlarge" id="DataPenghuni" readonly style="padding-top: 75px; height: 550px;"><?php echo $data; ?></textarea> 
         </div> 
         <button class="w3-button w3-green w3-margin-top w3-round-xxlarge" style="width:10%; position: fixed; bottom: 50px; right: 165px;">EDIT</button> 
         <button class="w3-button w3-green w3-margin-top w3-round-xxlarge" style="width:10%; position: fixed; bottom: 50px; right: 15px;">HAPUS</button> 

@@ -5,20 +5,20 @@
     <link rel="stylesheet" href="../w3.css">
     <script>
         function Logout() {
-            window.top.location.href = "../index.html"; 
+            window.top.location.href = "alert.php"; 
         }
     </script>
 <body>
     <div class="w3-bar w3-blue">
-        <a href="PemilikLobby.html" target="bawah">
+        <a href="PemilikLobby.php" target="bawah">
             <button class="w3-bar-item w3-button  w3-border-right">Lobby</button></a>
-        <a href="PengumumanPemilik.html" target="bawah">
+        <a href="PengumumanPemilik.php" target="bawah">
             <button class="w3-bar-item w3-button  w3-border-right">Pengumuman</button></a>
-        <a href="LaporanPemilik.html" target="bawah">
+        <a href="LaporanPemilik.php" target="bawah">
             <button class="w3-bar-item w3-button  w3-border-right">Laporan</button></a>
-        <a href="PembayaranPemilik.html" target="bawah">
+        <a href="PembayaranPemilik.php" target="bawah">
             <button class="w3-bar-item w3-button  w3-border-right">Pembayaran</button></a>
-        <a href="ListKamarPemilik.html" target="bawah">
+        <a href="ListKamarPemilik.php" target="bawah">
             <button class="w3-bar-item w3-button  w3-border-right">List Kamar</button></a>
         <button class="w3-bar-item w3-button w3-right w3-red  w3-border-right" onclick="Logout()">Logout</button>
     </div>

@@ -25,8 +25,8 @@
 </head>
 <body>
 
-<iframe id="menuatas" src="menuAtasPemilik.html"></iframe>
-<iframe id="bawah" src="PemilikLobby.html" name="bawah"></iframe>
+<iframe id="menuatas" src="menuAtasPemilik.php"></iframe>
+<iframe id="bawah" src="PemilikLobby.php" name="bawah"></iframe>
 
 </body>
 </html>

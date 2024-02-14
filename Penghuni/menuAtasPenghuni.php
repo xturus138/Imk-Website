@@ -6,7 +6,6 @@
     <script>
         function Logout() {
             window.top.location.href = "alert.php"; 
-            
         }
     </script>
 </head>

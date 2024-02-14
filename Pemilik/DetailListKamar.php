@@ -6,12 +6,18 @@
 <body style="background-color:paleturquoise;">
     <div class="w3-animate-zoom">
     <style>
-            .ccontainer {
-                display: flex;
-                align-items: top;
-                justify-content: center;
-            }
-        </style>
+        .ccontainer {
+            display: flex;
+            align-items: top;
+            justify-content: center;
+          }
+    </style>
+    <?php
+        require("../koneksi.php");
+        $listkamar = $_POST['listkamar'];
+        $sql = "SELECT * FROM penghuni WHERE listkamar = '$listkamar'";
+        $hasil = mysqli_query($conn, $sql);
+    ?>
         <div class="w3-col w3-container w3-margin-top ccontainer" style="width:100%; position: relative;">
             <label style="position: absolute; pointer-events: none;"><h3>Data Penghuni Kamar -</h3></label>
             <textarea class="w3-input w3-border w3-round-xxlarge" id="DataPenghuni" readonly style="padding-top: 75px; height: 550px;"></textarea>

@@ -9,10 +9,10 @@
     $hasilB = mysqli_query($conn, $sqlB);
 
     if (mysqli_num_rows($hasilP) == 1) {
-        header("Location: Penghuni/FramesetPenghuni.html");
+        header("Location: Penghuni/FramesetPenghuni.php");
         exit();
     } else if (mysqli_num_rows($hasilB) == 1) {
-        header("Location: Pemilik/FramesetPemilik.html");
+        header("Location: Pemilik/FramesetPemilik.php");
         exit();
     }else{
         echo "<script>alert('Username atau password salah!'); window.history.back();</script>";

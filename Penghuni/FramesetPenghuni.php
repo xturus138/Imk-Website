@@ -25,8 +25,8 @@
 </head>
 <body>
 
-<iframe id="menuatas" src="menuAtasPenghuni.html"></iframe>
-<iframe id="bawah" src="PenghuniLobby.html" name="bawah"></iframe>
+<iframe id="menuatas" src="menuAtasPenghuni.php"></iframe>
+<iframe id="bawah" src="PenghuniLobby.php" name="bawah"></iframe>
 
 </body>
 </html>

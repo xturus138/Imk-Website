@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="../w3.css">
     <script>
         function Logout() {
-            window.top.location.href = "../index.html"; 
+            window.top.location.href = "alert.php"; 
         }
     </script>
 <body>

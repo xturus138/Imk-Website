@@ -21,16 +21,19 @@ require("../koneksi.php");
             <label style="position: absolute; pointer-events: none;">
                 <h3>Profile</h3>
             </label>
+            
+            <textarea class="w3-input w3-border w3-round-large" id="ProfilePenghuni" readonly style="padding-top: 75px; height: 200px;">
             <?php
             $db = new database();
-            $datas = $db->tampil_data("SELECT * FROM profilepenghuni");
+            $datas = $db->tampil_data("SELECT * FROM penghuni");
 
             foreach ($datas as $data) {
-            ?>
-                <textarea class="w3-input w3-border w3-round-large" id="ProfilePenghuni" readonly style="padding-top: 75px; height: 200px;">Halo <?= $data['nama']?></textarea>
-            <?php
+                echo "Halo " . $data['nama'] . "\n";
+                echo $data['username']. "\n";
+                echo $data['listkamar'];
             }
             ?>
+        </textarea>
         </div>
         <div class="w3-col w3-container w3-margin-top profile-container" style="width:70%; position: relative;">
             <label style="position: absolute; pointer-events: none;">

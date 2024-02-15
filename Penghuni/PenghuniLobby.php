@@ -60,7 +60,7 @@ require("../koneksi.php");
         <div class="w3-col w3-container w3-margin-top profile-container" style="width:15%; position: relative;">
             <label style="position: absolute; pointer-events: none;">
                 <h3>Jatuh Tempo</h3>
-                <p>Tanggal: 08-09-2024</p>
+                <p>08-09-2024</p>
             </label>
             <textarea class="w3-input w3-border w3-round-large" id="JtPenghuni" readonly style="padding-top: 75px; height: 150px;"></textarea>
         </div>

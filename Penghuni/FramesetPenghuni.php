@@ -21,6 +21,19 @@
             border: none;
             display: block; 
         }
+
+        /* Media queries untuk responsif */
+        @media screen and (max-width: 768px) {
+            /* Aturan CSS yang akan diterapkan saat lebar layar maksimum 768px */
+            #menuatas {
+                height: 10%; /* Misalnya, ubah tinggi menu atas */
+            }
+            #bawah {
+                /* Aturan CSS tambahan jika diperlukan */
+            }
+        }
+
+        /* Tambahkan media queries lain sesuai kebutuhan */
     </style>
 </head>
 <body>

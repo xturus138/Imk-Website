@@ -11,6 +11,13 @@
             justify-content: center;
         }
     </style>
+
+    <script>
+        function redirect() {
+        alert("Data Berhasil Dihapus"); 
+        window.top.location.href = 'FramesetPemilik.php';
+    }
+    </script>
 </head>
 <body style="background-color:paleturquoise;">
     <div class="w3-animate-zoom">
@@ -41,7 +48,7 @@
             <textarea class="w3-input w3-border w3-round-xxlarge" id="DataPenghuni" readonly style="padding-top: 75px; height: 550px;"><?php echo $data; ?></textarea>
         </div>
         <a href="edit_penghuni.php?listkamar=<?php echo $listkamar; ?>" class="w3-button w3-green w3-margin-top w3-round-xxlarge" style="width:10%; position: fixed; bottom: 50px; right: 165px;">EDIT</a>
-        <button class="w3-button w3-green w3-margin-top w3-round-xxlarge" style="width:10%; position: fixed; bottom: 50px; right: 15px;">HAPUS</button>
+        <button class="w3-button w3-green w3-margin-top w3-round-xxlarge" onclick="redirect()" style="width:10%; position: fixed; bottom: 50px; right: 15px;">HAPUS</button>
     </div>
 </body>
 </html>

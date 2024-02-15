@@ -53,22 +53,22 @@
     <div class="w3-half w3-container">
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover"><h1>XXXXXXX</h1><span class="status-text">XX-XX-20XX</span></button>
+                <button class="w3-button w3-ripple w3-hover"><h1>Kamar 1 Bocor</h1><span class="status-text">06-06-2024</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover"><h1>XXXXXXX</h1><span class="status-text">XX-XX-20XX</span></button>
+                <button class="w3-button w3-ripple w3-hover"><h1>Kamar 2 Berisik</h1><span class="status-text">06-06-2024</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover"><h1>XXXXXXX</h1><span class="status-text">XX-XX-20XX</span></button>
+                <button class="w3-button w3-ripple w3-hover"><h1>Kamar 5 Bocor</h1><span class="status-text">06-06-2024</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover"><h1>XXXXXXX</h1><span class="status-text">XX-XX-20XX</span></button>
+                <button class="w3-button w3-ripple w3-hover"><h1>Sampah Depan Numpuk</h1><span class="status-text">06-06-2024</span></button>
             </div>
         </div>
     </div>

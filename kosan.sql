@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 15, 2024 at 09:10 AM
+-- Generation Time: Feb 15, 2024 at 05:21 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -37,7 +37,7 @@ CREATE TABLE `laporan` (
 --
 
 INSERT INTO `laporan` (`listkamarlaporan`, `isilaporan`) VALUES
-('kamar1', 'sadaasa');
+('kamar1', 'Ada kebocoran air di kamar mandi yang mengakibatkan genangan air. Hal ini membuat lantai menjadi licin dan berpotensi menimbulkan kecelakaan.');
 
 -- --------------------------------------------------------
 
@@ -73,47 +73,16 @@ CREATE TABLE `penghuni` (
   `alamat` varchar(50) NOT NULL,
   `perkawinan` varchar(15) NOT NULL,
   `pekerjaan` varchar(30) NOT NULL,
-  `listkamar` varchar(10) NOT NULL
+  `listkamar` varchar(10) NOT NULL,
+  `status` varchar(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `penghuni`
 --
 
-INSERT INTO `penghuni` (`nik`, `username`, `password`, `nama`, `tglLahir`, `jenisKelamin`, `alamat`, `perkawinan`, `pekerjaan`, `listkamar`) VALUES
-('1111111111111111', 'handa', 'handa123', 'Raihan Ramadhan', '2004-02-10', 'L', 'Jl. Cigadung', 'Kawin', 'Mahasiswa', 'kamar1'),
-('1234567890987654', 'venti', 'venti1234', 'Venti', '2004-06-05', 'P', 'Mondstat', 'belum kawin', 'archon', 'kamar5'),
-('1234567898765431', 'neuvillette', 'neuvillette1234', 'Neuvillette', '2004-12-18', 'L', 'Fontaine', 'belum kawin', 'Hakim', 'kamar6'),
-('1234567898765432', 'Raiden', 'Raiden', 'Raiden Shogun', '2004-06-26', 'P', 'Inazuma', 'belum kawin', 'archon', 'kamar3'),
-('1234567898765433', 'furina', 'furina1234', 'Furina', '2004-10-13', 'P', 'Fontaine', 'belum kawin', 'archon', 'kamar7'),
-('2222222222222222', 'nahida', 'nahida1234', 'Nahida', '2004-10-27', 'P', 'Sumeru', 'belum kawin', 'archon', 'kamar2'),
-('2345678987654321', 'zhongli', 'zhongli1234', 'Zhongli', '2004-12-31', 'L', 'Liyue', 'belum kawin', 'archon', 'kamar4');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `penghuni2`
---
-
-CREATE TABLE `penghuni2` (
-  `nik` char(16) NOT NULL,
-  `username` varchar(25) NOT NULL,
-  `password` varchar(50) NOT NULL,
-  `nama` varchar(50) NOT NULL,
-  `tglLahir` date NOT NULL,
-  `jenisKelamin` char(1) NOT NULL,
-  `alamat` varchar(50) NOT NULL,
-  `perkawinan` varchar(15) NOT NULL,
-  `pekerjaan` varchar(30) NOT NULL,
-  `listkamar` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `penghuni2`
---
-
-INSERT INTO `penghuni2` (`nik`, `username`, `password`, `nama`, `tglLahir`, `jenisKelamin`, `alamat`, `perkawinan`, `pekerjaan`, `listkamar`) VALUES
-('1111111111111111', 'handa', 'handa123', 'Raihan R', '2004-02-10', 'L', 'Jl. Cigadung', 'Kawin', 'Mahasiswa', 'kamar1');
+INSERT INTO `penghuni` (`nik`, `username`, `password`, `nama`, `tglLahir`, `jenisKelamin`, `alamat`, `perkawinan`, `pekerjaan`, `listkamar`, `status`) VALUES
+('1111111111111111', 'handa', 'handa123', 'Raihan Taufik', '2004-02-10', 'L', 'Jl. Cigadung', 'Kawin', 'Mahasiswa', 'kamar1', '');
 
 -- --------------------------------------------------------
 
@@ -131,7 +100,7 @@ CREATE TABLE `pengumuman` (
 --
 
 INSERT INTO `pengumuman` (`listpengumuman`, `isipengumuman`) VALUES
-('pengumuman', 'Jangan Buang Sampah Sembarangan! Sekarang Saya Sudah Mengganti Tempat Sampah Depan Menjadi Lebih Besar');
+('pengumuman', 'Jam Malam: Mohon untuk kembali ke kost sebelum pukul 22.00 WIB. Jika ada keperluan mendesak dan terpaksa pulang lewat dari jam tersebut, harap beritahu penjaga kost terlebih dahulu');
 
 --
 -- Indexes for dumped tables
@@ -153,12 +122,6 @@ ALTER TABLE `pemilik`
 -- Indexes for table `penghuni`
 --
 ALTER TABLE `penghuni`
-  ADD PRIMARY KEY (`nik`);
-
---
--- Indexes for table `penghuni2`
---
-ALTER TABLE `penghuni2`
   ADD PRIMARY KEY (`nik`);
 
 --

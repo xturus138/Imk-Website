@@ -65,6 +65,10 @@
             height: 50px; 
         }
 
+        <?php
+            require("../koneksi.php");
+        ?>
+
     </style>
 </head>
 <body style="background-color:paleturquoise;">

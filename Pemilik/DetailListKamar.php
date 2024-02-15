@@ -24,7 +24,6 @@
         $data = "";
         while ($row = mysqli_fetch_assoc($hasil)) {
             $dataPenghuni .= $row['nama'] . " ";
-
             $data .= "NIK: " . $row['nik'] . "\n";
             $data .= "Nama: " . $row['nama'] . "\n";
             $data .= "Tanggal Lahir: " . $row['tglLahir'] . "\n";
@@ -41,7 +40,7 @@
             <label style="position: absolute; pointer-events: none;"><h3>Data Penghuni Kamar - <?php echo $dataPenghuni; ?></h3></label>
             <textarea class="w3-input w3-border w3-round-xxlarge" id="DataPenghuni" readonly style="padding-top: 75px; height: 550px;"><?php echo $data; ?></textarea>
         </div>
-        <button class="w3-button w3-green w3-margin-top w3-round-xxlarge" style="width:10%; position: fixed; bottom: 50px; right: 165px;">EDIT</button>
+        <a href="edit_penghuni.php?listkamar=<?php echo $listkamar; ?>" class="w3-button w3-green w3-margin-top w3-round-xxlarge" style="width:10%; position: fixed; bottom: 50px; right: 165px;">EDIT</a>
         <button class="w3-button w3-green w3-margin-top w3-round-xxlarge" style="width:10%; position: fixed; bottom: 50px; right: 15px;">HAPUS</button>
     </div>
 </body>

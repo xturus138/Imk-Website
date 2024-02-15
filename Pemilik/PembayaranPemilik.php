@@ -79,7 +79,7 @@
             <div class="w3-col marginCustom">
                 <button class="w3-button occupied w3-ripple w3-hover-gray" >
                     <h1>Kamar 1</h1><span class="status-text">15-02-2024</span>
-                    <input type="checkbox" id="kamar1" name="kamar1" value="Kamar1" class="custom-checkbox"></button>
+                    <input type="checkbox" id="kamar1" name="kamar1" class="custom-checkbox"></button>
             </div>
         </div>
         <div class="w3-row">
@@ -128,6 +128,5 @@
         </div>
     </div>
 </div>
-
 </body>
 </html>

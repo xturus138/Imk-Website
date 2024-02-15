@@ -65,7 +65,5 @@ require("../koneksi.php");
             <textarea class="w3-input w3-border w3-round-large" id="JtPenghuni" readonly style="padding-top: 75px; height: 150px;"></textarea>
         </div>
     </div>
-
 </body>
-
 </html>

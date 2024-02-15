@@ -37,7 +37,7 @@
             margin-top: 0;
             color: #333;
         }
-        button {
+        .button1 {
             padding: 10px 20px;
             font-size: 16px;
             background-color: #007bff;
@@ -47,16 +47,26 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
+        .button2 {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: red;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
         button:hover {
-            background-color: #0056b3;
+            background-color: gray;
         }
     </style>
 </head>
 <body style="background-color:paleturquoise;">
     <div class="container">
         <h2>Apakah Anda yakin ingin keluar?</h2>
-        <button onclick="redirect('../index.html')">Ya</button>
-        <button onclick="redirect('FramesetPenghuni.php')">Tidak</button>
+        <button class="button2" onclick="redirect('../index.html')">Ya</button>
+        <button class="button1" onclick="redirect('FramesetPenghuni.php')">Tidak</button>
     </div>
 
     <script>

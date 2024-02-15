@@ -53,44 +53,44 @@
     <div class="w3-half w3-container">
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button occupied w3-ripple w3-hover-green" ><h1>Kamar 1</h1><span class="status-text">Diisi</span></button>
+                <button class="w3-button occupied w3-ripple w3-hover-gray" ><h1>Kamar 1</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button occupied w3-ripple w3-hover-green"><h1>Kamar 2</h1><span class="status-text">Diisi</span></button>
+                <button class="w3-button occupied w3-ripple w3-hover-gray"><h1>Kamar 2</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green occupied"><h1>Kamar 3</h1><span class="status-text">Diisi</span></button>
+                <button class="w3-button w3-ripple w3-hover-gray occupied"><h1>Kamar 3</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green occupied"><h1>Kamar 4</h1><span class="status-text">Diisi</span></button>
+                <button class="w3-button w3-ripple w3-hover-gray occupied"><h1>Kamar 4</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
     </div>
     <div class="w3-half w3-container">
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green occupied"><h1>Kamar 5</h1><span class="status-text">Diisi</span></button>
+                <button class="w3-button w3-ripple w3-hover-gray occupied"><h1>Kamar 5</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green occupied"><h1>Kamar 6</h1><span class="status-text">Diisi</span></button>
+                <button class="w3-button w3-ripple w3-hover-gray occupied"><h1>Kamar 6</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green occupied"><h1>Kamar 7</h1><span class="status-text">Diisi</span></button>
+                <button class="w3-button w3-ripple w3-hover-gray occupied"><h1>Kamar 7</h1><span class="status-text">Diisi</span></button>
             </div>
         </div>
         <div class="w3-row">
             <div class="w3-col marginCustom">
-                <button class="w3-button w3-ripple w3-hover-green "><h1>Kamar 8</h1><span class="status-text">Kosong</span></button>
+                <button class="w3-button w3-ripple w3-hover-white "><h1>Kamar 8</h1><span class="status-text">Kosong</span></button>
             </div>
         </div>
     </div>

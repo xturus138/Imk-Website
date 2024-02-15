@@ -25,7 +25,7 @@ require("../koneksi.php");
             <textarea class="w3-input w3-border w3-round-large" id="ProfilePenghuni" readonly style="padding-top: 50px; height: 300px;">
             <?php
             $db = new database();
-            $datas = $db->tampil_data("SELECT * FROM penghuni2");
+            $datas = $db->tampil_data("SELECT * FROM penghuni");
 
             foreach ($datas as $data) {
                 echo "\n" ;

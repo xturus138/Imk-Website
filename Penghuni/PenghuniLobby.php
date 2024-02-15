@@ -53,9 +53,9 @@ require("../koneksi.php");
         </div>
         <div class="w3-col w3-container w3-margin-top profile-container" style="width:70%; position: relative;">
             <label style="position: absolute; pointer-events: none;">
-                <h3>Pengumuman</h3>
+                <h1>Pengumuman</h1>
             </label>
-            <textarea class="w3-input w3-border w3-round-large w3-center" id="PPenghuni" readonly style="padding-top: 75px; height: 700px;"><?php echo $pengumumanList; ?></textarea>
+            <textarea class="w3-input w3-border w3-round-large w3-center" id="PPenghuni" readonly style="padding-top: 75px; height: 700px; font-size: 20px;"><?php echo $pengumumanList; ?></textarea>
         </div>
         <div class="w3-col w3-container w3-margin-top profile-container" style="width:15%; position: relative;">
             <label style="position: absolute; pointer-events: none;">

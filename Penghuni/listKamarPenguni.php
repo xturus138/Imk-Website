@@ -46,7 +46,6 @@
         }
 
     </style>
-    
 </head>
 <body style="background-color:paleturquoise;">
 

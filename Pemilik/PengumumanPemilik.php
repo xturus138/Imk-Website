@@ -46,7 +46,7 @@
             <button type="submit" class="w3-button w3-green w3-margin-top w3-round-xxlarge" style="width:15%">Kirim</button>
         </form>
         <div style="position: relative;">
-            <label for="outPengumuman" style="position: absolute; top: 5px; left: 10px;">List Pengumuman</label>
+            <label for="outPengumuman" style="position: absolute; top: 5px; left: 10px;">Pengumuman Terbaru</label>
             <textarea id="outPengumuman" class="w3-input w3-border w3-round-large w3-margin-top" name="outputPengumuman" readonly type="text" style="width: 100%; height: 150px; overflow:hidden; padding-top: 30px;"><?php echo $pengumumanList; ?></textarea>
         </div>
     </div>

@@ -44,7 +44,7 @@
             <button type="submit" class="w3-button w3-green w3-margin-top w3-round-xxlarge" style="width:15%">Kirim</button>
         </form>
         <div style="position: relative;">
-            <label for="outlap" style="position: absolute; top: 5px; left: 10px;">Laporan Anda</label>
+            <label for="outlap" style="position: absolute; top: 5px; left: 10px;">Laporan Terbaru</label>
             <textarea id="outlap" class="w3-input w3-border w3-round-large w3-margin-top" name="outputLaporan" readonly type="text" style="width: 100%; height: 150px; overflow:hidden; padding-top: 30px;"></textarea>
         </div>
     </div>
